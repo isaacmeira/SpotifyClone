@@ -14,6 +14,12 @@ export const Container = styled.aside`
 
   > div {
     padding: 25px;
+    height: 100%;
+    overflow: auto;
+
+    ::-webkit-scrollbar {
+      width: 0px;
+    }
   }
 `;
 
