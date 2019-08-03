@@ -14,7 +14,6 @@ export const Search = styled.div`
   align-items: center;
   border-radius: 12px;
   height: 24px;
-  width: 175px;
   padding: 6px 7px 6px 26px;
   background: #fff url(${SearchIcon}) no-repeat 7px center;
 

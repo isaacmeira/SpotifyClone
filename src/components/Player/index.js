@@ -76,7 +76,7 @@ const Player = ({
           <img src={BackwardIcon} alt="Backward" />
         </button>
         {!!player.currentSong && player.status === Sound.status.PLAYING ? (
-          <button onCLick={pause}>
+          <button onClick={pause}>
             <img src={PauseIcon} alt="Pause" />
           </button>
         ) : (
